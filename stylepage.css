@@ -1,0 +1,172 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+header>p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin:5px 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 10px 15px 8px;
+    width: fit-content;
+}
+
+.green-container {
+    background-color: #0d5a1a;
+}
+
+header>img{
+    height: 100px;
+    width: 80px;
+    margin-top: 10px;
+}
+.hero-container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-image{
+    background-color: #fff;
+    margin: 10px 10px;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+}
+
+.hero-image>img{
+    width: 295px;
+    height: 200px;
+
+}
+.hero-present{
+    background-color: rgb(80, 80, 248);
+    padding: 10px 25px;
+
+    
+
+}
+.hero-free{
+    background-color: rgb(8, 8, 158);
+border: 3px solid white;
+font-size: 50px;
+text-align: center;
+width: 550px;
+}
+.free{
+    background-color: rgb(240, 21, 21);
+    font-size: 25px;
+    padding: 10px 15px;
+    margin-left: -75px;
+}
+.hero-text{
+    background-color: rgb(12, 10, 10);
+    font-size:15px ;
+    width: 505px;
+    text-align:center;
+    padding: 10px 25px;
+
+}
+.end-container{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 10px ;
+    align-items: center;    
+
+}
+.end-date1{
+    color: rgb(19, 18, 18);
+    font-size:25px ; 
+}
+.end-date2{
+    color: black;
+    font-size:25px ;
+}
+.end-time{
+    background-color: red;
+    font-size: 40px;
+    padding: 10px 25px;
+    
+}
+.red{
+    color: red;
+    padding: 0px 20px;
+    text-align: right;
+    display: inline;
+}
+.end-partnership{
+    margin-left:25px ;
+}
+.material-symbols-outlined{
+    color: green;
+    font-size: 30px;
+}
+.unend-container{
+    max-width: 450px;
+}
+
+@media  (max-width:768px){
+    .container{
+        background-color: red;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-image{
+        display: none;
+    }
+}
+@media (max-width:480){
+    .container{
+        background-color: yellow;
+    }
+}
+
+
+
+
+
+.position{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    overflow-y: scroll;
+}
+
+.position div{
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+}
+.a{
+background-color: aqua;
+position: sticky;
+left:20px;
+}
+.b{
+    background-color: azure;
+}
+.c{
+    background-color: red;
+    bottom: 30px;
+}
+.d{
+    background-color: yellow;
+}

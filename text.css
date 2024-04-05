@@ -1,0 +1,43 @@
+.texting{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    flex-direction: row;
+}
+body{
+    background-color: gray;
+}
+.texting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em ;
+    flex-direction: row-reverse
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: azure;   
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 90%;
+}
+.nav-link{text-decoration:none ;
+    color: black;
+    cursor: pointer;
+    top: 80px;
+    position: static;
+
+}
+.nav-link:hover{
+    color: blue;
+}
+.nav-brand{
+    border: 3px solid black;
+    padding: 6px 10px;
+}
